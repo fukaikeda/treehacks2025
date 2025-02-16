@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E1887382D615AC500C818CF /* TreeHacksAppleWatchApp2 Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1E1887372D615AC500C818CF /* TreeHacksAppleWatchApp2 Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1E1887542D617C7D00C818CF /* TerraRTiOS in Frameworks */ = {isa = PBXBuildFile; productRef = 1E1887532D617C7D00C818CF /* TerraRTiOS */; };
+		1EABBF472D61CEFE0021FF0F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1EABBF462D61CEFE0021FF0F /* FirebaseFirestore */; };
+		1EABBF662D61DC1F0021FF0F /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1EABBF652D61DC1F0021FF0F /* FirebaseCore */; };
+		1EABBF6A2D620B250021FF0F /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1EABBF692D620B250021FF0F /* FirebaseCore */; };
+		1EABBF6C2D620B250021FF0F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1EABBF6B2D620B250021FF0F /* FirebaseFirestore */; };
+		1EABBF6E2D620E170021FF0F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1EABBF6D2D620E170021FF0F /* GoogleService-Info.plist */; };
+		1EABBF6F2D620E170021FF0F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1EABBF6D2D620E170021FF0F /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E1887392D615AC500C818CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E18871F2D615AC200C818CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E1887362D615AC500C818CF;
+			remoteInfo = "TreeHacksAppleWatchApp2 Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1E18874A2D615AC600C818CF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1E1887382D615AC500C818CF /* TreeHacksAppleWatchApp2 Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1E1887272D615AC200C818CF /* TreeHacksAppleWatchApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeHacksAppleWatchApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E1887372D615AC500C818CF /* TreeHacksAppleWatchApp2 Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TreeHacksAppleWatchApp2 Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EABBF6D2D620E170021FF0F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1E69619D2D617FF800A75608 /* Exceptions for "TreeHacksAppleWatchApp2" folder in "TreeHacksAppleWatchApp2" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1E1887262D615AC200C818CF /* TreeHacksAppleWatchApp2 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1E1887292D615AC200C818CF /* TreeHacksAppleWatchApp2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1E69619D2D617FF800A75608 /* Exceptions for "TreeHacksAppleWatchApp2" folder in "TreeHacksAppleWatchApp2" target */,
+			);
+			path = TreeHacksAppleWatchApp2;
+			sourceTree = "<group>";
+		};
+		1E18873B2D615AC500C818CF /* TreeHacksAppleWatchApp2 Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TreeHacksAppleWatchApp2 Watch App";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E1887242D615AC200C818CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1887542D617C7D00C818CF /* TerraRTiOS in Frameworks */,
+				1EABBF662D61DC1F0021FF0F /* FirebaseCore in Frameworks */,
+				1EABBF472D61CEFE0021FF0F /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E1887342D615AC500C818CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EABBF6A2D620B250021FF0F /* FirebaseCore in Frameworks */,
+				1EABBF6C2D620B250021FF0F /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E18871E2D615AC200C818CF = {
+			isa = PBXGroup;
+			children = (
+				1EABBF6D2D620E170021FF0F /* GoogleService-Info.plist */,
+				1E1887292D615AC200C818CF /* TreeHacksAppleWatchApp2 */,
+				1E18873B2D615AC500C818CF /* TreeHacksAppleWatchApp2 Watch App */,
+				1E6961AB2D61CB5300A75608 /* Frameworks */,
+				1E1887282D615AC200C818CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E1887282D615AC200C818CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E1887272D615AC200C818CF /* TreeHacksAppleWatchApp2.app */,
+				1E1887372D615AC500C818CF /* TreeHacksAppleWatchApp2 Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E6961AB2D61CB5300A75608 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E1887262D615AC200C818CF /* TreeHacksAppleWatchApp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E18874B2D615AC600C818CF /* Build configuration list for PBXNativeTarget "TreeHacksAppleWatchApp2" */;
+			buildPhases = (
+				1E1887232D615AC200C818CF /* Sources */,
+				1E1887242D615AC200C818CF /* Frameworks */,
+				1E1887252D615AC200C818CF /* Resources */,
+				1E18874A2D615AC600C818CF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E18873A2D615AC500C818CF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1E1887292D615AC200C818CF /* TreeHacksAppleWatchApp2 */,
+			);
+			name = TreeHacksAppleWatchApp2;
+			packageProductDependencies = (
+				1E1887532D617C7D00C818CF /* TerraRTiOS */,
+				1EABBF462D61CEFE0021FF0F /* FirebaseFirestore */,
+				1EABBF652D61DC1F0021FF0F /* FirebaseCore */,
+			);
+			productName = TreeHacksAppleWatchApp2;
+			productReference = 1E1887272D615AC200C818CF /* TreeHacksAppleWatchApp2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E1887362D615AC500C818CF /* TreeHacksAppleWatchApp2 Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E1887472D615AC600C818CF /* Build configuration list for PBXNativeTarget "TreeHacksAppleWatchApp2 Watch App" */;
+			buildPhases = (
+				1E1887332D615AC500C818CF /* Sources */,
+				1E1887342D615AC500C818CF /* Frameworks */,
+				1E1887352D615AC500C818CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1E18873B2D615AC500C818CF /* TreeHacksAppleWatchApp2 Watch App */,
+			);
+			name = "TreeHacksAppleWatchApp2 Watch App";
+			packageProductDependencies = (
+				1EABBF692D620B250021FF0F /* FirebaseCore */,
+				1EABBF6B2D620B250021FF0F /* FirebaseFirestore */,
+			);
+			productName = "TreeHacksAppleWatchApp2 Watch App";
+			productReference = 1E1887372D615AC500C818CF /* TreeHacksAppleWatchApp2 Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E18871F2D615AC200C818CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					1E1887262D615AC200C818CF = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1E1887362D615AC500C818CF = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 1E1887222D615AC200C818CF /* Build configuration list for PBXProject "TreeHacksAppleWatchApp2" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E18871E2D615AC200C818CF;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1E18874E2D615B2100C818CF /* XCRemoteSwiftPackageReference "TerraRTiOS" */,
+				1E6961A62D61CB2300A75608 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1E1887282D615AC200C818CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E1887262D615AC200C818CF /* TreeHacksAppleWatchApp2 */,
+				1E1887362D615AC500C818CF /* TreeHacksAppleWatchApp2 Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E1887252D615AC200C818CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EABBF6F2D620E170021FF0F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E1887352D615AC500C818CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EABBF6E2D620E170021FF0F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E1887232D615AC200C818CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E1887332D615AC500C818CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E18873A2D615AC500C818CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E1887362D615AC500C818CF /* TreeHacksAppleWatchApp2 Watch App */;
+			targetProxy = 1E1887392D615AC500C818CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E1887452D615AC600C818CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E1887462D615AC600C818CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1E1887482D615AC600C818CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TreeHacksAppleWatchApp2 Watch App/TreeHacksAppleWatchApp2 Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TreeHacksAppleWatchApp2 Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = GCZFJ645GT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TreeHacksAppleWatchApp2;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs access to your health data to monitor your heart rate";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app needs to save heart rate data to provide you with accurate health insights.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.charchar.TreeHacksAppleWatchApp2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charchar.TreeHacksAppleWatchApp2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Debug;
+		};
+		1E1887492D615AC600C818CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TreeHacksAppleWatchApp2 Watch App/TreeHacksAppleWatchApp2 Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TreeHacksAppleWatchApp2 Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = GCZFJ645GT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TreeHacksAppleWatchApp2;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs access to your health data to monitor your heart rate";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app needs to save heart rate data to provide you with accurate health insights.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.charchar.TreeHacksAppleWatchApp2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charchar.TreeHacksAppleWatchApp2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Release;
+		};
+		1E18874C2D615AC600C818CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TreeHacksAppleWatchApp2/TreeHacksAppleWatchApp2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TreeHacksAppleWatchApp2/Preview Content\"";
+				DEVELOPMENT_TEAM = GCZFJ645GT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TreeHacksAppleWatchApp2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TreeHacksAppleWatchApp2;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = com.charchar.TreeHacksAppleWatchApp2;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires access to your health data to monitor and display your heart rate.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app needs to save heart rate data to provide you with accurate health insights.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charchar.TreeHacksAppleWatchApp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E18874D2D615AC600C818CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TreeHacksAppleWatchApp2/TreeHacksAppleWatchApp2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TreeHacksAppleWatchApp2/Preview Content\"";
+				DEVELOPMENT_TEAM = GCZFJ645GT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TreeHacksAppleWatchApp2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TreeHacksAppleWatchApp2;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = com.charchar.TreeHacksAppleWatchApp2;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires access to your health data to monitor and display your heart rate.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app needs to save heart rate data to provide you with accurate health insights.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charchar.TreeHacksAppleWatchApp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E1887222D615AC200C818CF /* Build configuration list for PBXProject "TreeHacksAppleWatchApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E1887452D615AC600C818CF /* Debug */,
+				1E1887462D615AC600C818CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E1887472D615AC600C818CF /* Build configuration list for PBXNativeTarget "TreeHacksAppleWatchApp2 Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E1887482D615AC600C818CF /* Debug */,
+				1E1887492D615AC600C818CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E18874B2D615AC600C818CF /* Build configuration list for PBXNativeTarget "TreeHacksAppleWatchApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E18874C2D615AC600C818CF /* Debug */,
+				1E18874D2D615AC600C818CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1E18874E2D615B2100C818CF /* XCRemoteSwiftPackageReference "TerraRTiOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tryterra/TerraRTiOS";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.3.8;
+			};
+		};
+		1E6961A62D61CB2300A75608 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E1887532D617C7D00C818CF /* TerraRTiOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E18874E2D615B2100C818CF /* XCRemoteSwiftPackageReference "TerraRTiOS" */;
+			productName = TerraRTiOS;
+		};
+		1EABBF462D61CEFE0021FF0F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E6961A62D61CB2300A75608 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		1EABBF652D61DC1F0021FF0F /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E6961A62D61CB2300A75608 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		1EABBF692D620B250021FF0F /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E6961A62D61CB2300A75608 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		1EABBF6B2D620B250021FF0F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E6961A62D61CB2300A75608 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1E18871F2D615AC200C818CF /* Project object */;
+}
